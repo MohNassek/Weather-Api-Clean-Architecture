@@ -1,0 +1,15 @@
+D:\C#\WeatherApi\WeatherApi.Application\bin\Debug\net8.0\WeatherApi.Application.deps.json
+D:\C#\WeatherApi\WeatherApi.Application\bin\Debug\net8.0\WeatherApi.Application.dll
+D:\C#\WeatherApi\WeatherApi.Application\bin\Debug\net8.0\WeatherApi.Application.pdb
+D:\C#\WeatherApi\WeatherApi.Application\bin\Debug\net8.0\WeatherApi.Domain.dll
+D:\C#\WeatherApi\WeatherApi.Application\bin\Debug\net8.0\WeatherApi.Domain.pdb
+D:\C#\WeatherApi\WeatherApi.Application\obj\Debug\net8.0\WeatherApi.Application.csproj.AssemblyReference.cache
+D:\C#\WeatherApi\WeatherApi.Application\obj\Debug\net8.0\WeatherApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\WeatherApi\WeatherApi.Application\obj\Debug\net8.0\WeatherApi.Application.AssemblyInfoInputs.cache
+D:\C#\WeatherApi\WeatherApi.Application\obj\Debug\net8.0\WeatherApi.Application.AssemblyInfo.cs
+D:\C#\WeatherApi\WeatherApi.Application\obj\Debug\net8.0\WeatherApi.Application.csproj.CoreCompileInputs.cache
+D:\C#\WeatherApi\WeatherApi.Application\obj\Debug\net8.0\WeatherApi.Application.csproj.CopyComplete
+D:\C#\WeatherApi\WeatherApi.Application\obj\Debug\net8.0\WeatherApi.Application.dll
+D:\C#\WeatherApi\WeatherApi.Application\obj\Debug\net8.0\refint\WeatherApi.Application.dll
+D:\C#\WeatherApi\WeatherApi.Application\obj\Debug\net8.0\WeatherApi.Application.pdb
+D:\C#\WeatherApi\WeatherApi.Application\obj\Debug\net8.0\ref\WeatherApi.Application.dll

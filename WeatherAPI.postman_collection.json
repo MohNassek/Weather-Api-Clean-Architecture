@@ -1,0 +1,176 @@
+{
+	"info": {
+		"_postman_id": "a53d47f4-2904-4665-9f05-b24488517922",
+		"name": "WeatherAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30890641"
+	},
+	"item": [
+		{
+			"name": "https://localhost:7036/api/Weather",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7036/api/Weather/get?id=2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7036",
+					"path": [
+						"api",
+						"Weather",
+						"get"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:7036/api/Weather",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7036/api/Weather",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7036",
+					"path": [
+						"api",
+						"Weather"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:7036/api/Weather",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"city\": \"London\",\r\n    \"country\": \"UK\",\r\n    \"temperature\": 22.5\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7036/api/Weather",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7036",
+					"path": [
+						"api",
+						"Weather"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:7036/api/Weather",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"city\": \"London\",\r\n    \"country\": \"UK\",\r\n    \"temperature\": 25.0\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7036/api/Weather/update?id=1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7036",
+					"path": [
+						"api",
+						"Weather",
+						"update"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:7036/api/weather/delete?id=1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7036/api/weather/delete?id=1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7036",
+					"path": [
+						"api",
+						"weather",
+						"delete"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:7036/api/weather/fetch?cityName=galle",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7036/api/weather/fetch?cityName=galle",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7036",
+					"path": [
+						"api",
+						"weather",
+						"fetch"
+					],
+					"query": [
+						{
+							"key": "cityName",
+							"value": "galle"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
